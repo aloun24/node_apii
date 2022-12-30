@@ -7,15 +7,15 @@ app.use(express.json());
 
 //Mysql connection
 const connection = mysql.createConnection({
-    // host:'163.44.198.71',
-    // user:'cp195280',
-    // password:'Changeme1!2@',
-    // database:'cp195280_mahaxay',
+     host:'163.44.198.71',
+     user:'cp195280',
+     password:'Changeme1!2@',
+     database:'cp195280_mahaxay',
 
-    host:'localhost',
-    user:'root',
-    password:'',
-    database:'mahaxay',
+   // host:'localhost',
+   // user:'root',
+   // password:'',
+   // database:'mahaxay',
     // port:2988,
 })
 
